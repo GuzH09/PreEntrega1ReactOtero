@@ -1,7 +1,11 @@
+import NavBar from "./components/NavBar/NavBar";
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer"
+
 function App() {
   return (
     <>
-      <h1>Comision 54040</h1>
+      <NavBar />
+      <ItemListContainer greeting={'Bienvenidos'}/>
     </>
   );
 }
